@@ -3,7 +3,7 @@
 //
 var modal = "<div id='animatedModal'><div id='closebt-container' class='close-animatedModal'><img id='closebt' class='closebt' src=''></div><div id='chartcontainer' class='modal-content'> </div> </div>";
 $('body').append(modal);
-document.getElementById('closebt').src = chrome.extension.getURL('img/closebt.svg');
+document.getElementById('closebt').src = chrome.runtime.getURL('img/closebt.svg');
 //
 //                           Generate buttons
 //
